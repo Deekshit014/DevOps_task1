@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "deeksh14/html-jenkins-app"
-        DOCKER_CREDS = credentials('dockerhub-creds')
+        DOCKER_CREDS = credentials('dockerhub-cred')
     }
 
     stages {
